@@ -1,77 +1,91 @@
 <!-- Add banner here -->
 <p align="center">
-  <img src="./assets/img/Relaverse.jpg" alt="Relaverse Logo" width="1280" height="650"/>
+  <img src="./assets/img/Relaverse.jpg" alt="Relaverse Logo" width="1920" height="1280"/>
 </p>
 
-# **Title Classification - RelaVerse**
+# **Title Classification - RelaVerse (Machine Learning)**
 
 <!-- Button and Banner-->
 
 <!-- Describe your project in brief -->
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Creating a model using TensorFlow.js and natural language processing (NLP) in its implementation. The dataset used is divided into train and test sets, with an 80% proportion for training and 20% for testing. In the preprocessing stage, the stopwords function is used to determine words to be avoided in the NLP process. Then, stemming function is applied to break down words in the campaign titles into their base form. After that, tokenizer is used to separate words in the campaign titles for further text analysis. Next, in the modeling stage, tf.keras.Sequential is used. Finally, the model is converted to model.json using tensorflow.js.
 
 # **Quickstart/Demo**
 
 <!-- Add a demo for your project -->
-I believe that you should bring value to the reader as soon as possible. You should be able to get the user up and running with your project with minimal friction.
-If you have a quickstart guide, this is where it should be.
-Alternatively, you can add a demo to show what your project can do.
+For quickstart demo, you can use this button to go to google colab for launch the classification model.
 
 <!-- Colab Button -->
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/NgakanWidyasprana/RelaVerse-ML/blob/main/python/Text_Classification.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gbMtyJSmh6BhPgJ3zS7tA0QUe0cYTJuA?hl=id#scrollTo=XWnCAHqSyuTx)
 
-# Table of Contents
+# **Table of Contents**
 
-GitHub has a ToC feature now. It works really well, so this might not be needed. Still, if you want to add a ToC in the README, you can add it here.
-I just learned that VS Code automatically updates the ToC if you change any of the headings. Pretty cool!
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
 
-- [Project Title](#project-title)
+- [Project Title](#title-classification---relaverse-machine-learning)
 - [Quickstart/Demo](#quickstartdemo)
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Development](#development)
-- [Contribute](#contribute)
 - [License](#license)
+- [Team Member](#team-member)
+- [Repository](#repository)
 
-# Installation
-[(Back to top)](#table-of-contents)
+# **Installation** 
+[(Back to Top)](#table-of-contents)
 
 This is where your installation instructions go.
 You can add snippets here that your readers can copy-paste with click:
 
 ```shell
-gh repo clone navendu-pottekkat/awesome-readme
+git clone https://github.com/NgakanWidyasprana/RelaVerse-ML
 ```
 
-# Usage
-[(Back to top)](#table-of-contents)
-
-Next, you have to explain how to use your project. You can create subsections under here to explain more clearly.
-
-# Development
-[(Back to top)](#table-of-contents)
-
-You have people who want to use your project and then you have people who want contribute to your project.
-This is where you provide instructions for the latter.
-Add instructions on how to set up a development environment, clone, and build the project.
-You can use the code snippets here as well:
+After you clone, you can run the jupiter notebook (*download jupiter first*) :
 
 ```shell
-command to clone your project
-command to build your project
-command to run your project in development mode
+ipython notebook "python/Text_Classification.ipynb"
 ```
 
-# Contribute
+or
+
+```shell
+jupyter notebook "python/Text_Classification.ipynb"
+```
+
+This will open the Jupyter Notebook software and project file in your browser.
+
+This project requires **Python** and the following Python libraries installed:
+
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org/)
+- [matplotlib](http://matplotlib.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [tensorflow](https://www.tensorflow.org/install/pip)
+- [nltk](https://www.nltk.org/)
+- [Sastrawi](https://pypi.org/project/Sastrawi/)
+
+# Team Member
 [(Back to top)](#table-of-contents)
 
-You can use this section to highlight how people can contribute to your project.
-You can add information on how they can open issues or how they can sponsor the project.
+|              Name              | Bangkit-ID |   Learning Path    |                                                       Contact Link                                                       |
+| :----------------------------: | :--------: | :----------------: | :----------------------------------------------------------------------------------------------------------------------: |
+| Jason Suhali | M264DSX1746 |  Machine Learning  |            [LinkedIn](https://www.linkedin.com/in/jason-suhali-604814222/)  and [GitHub](https://github.com/JasonXander)         |
+|   Ngakan Putu Widyasprana     | M368DSX3659 |  Machine Learning  |                [LinkedIn](https://www.linkedin.com/in/ngakanwp/)    and [GitHub](https://github.com/NgakanWidyasprana)            |
+|     Kristian Ekachandra            | A264DSX2268| Mobile Development |              [LinkedIn](https://www.linkedin.com/in/kristian-ekachandra/)       and [GitHub](https://github.com/KristianEka)        |
+|     Mohammad Faiz Azhary     | A363DSX1260 | Mobile Development |    [LinkedIn](https://www.linkedin.com/in/mohammad-faiz-azhary/)  and [GitHub](https://github.com/zee-azha)    |
+|      Muhammad Aimar Rizki Utama     |C360DSX0650 |  Cloud Computing   | [LinkedIn](https://www.linkedin.com/in/muhammad-aimar-rizki-utama-75479b21b/) and [GitHub](https://github.com/aimrzky)   |
+|        Fakhrity Hikmawan         | C360DSX1665 |  Cloud Computing   |        [LinkedIn](https://www.linkedin.com/in/fakhrity-hikmawan/)   and [GitHub](https://github.com/fahixa)     |
+
+# Repository
+[(Back to top)](#table-of-contents)
+
+|   Learning Paths   |                                Link                                |
+| :----------------: | :----------------------------------------------------------------: |
+| Mobile Development | [Github](https://github.com/zee-azha/Relaverse) |
+| Cloud Computing  | [Github](https://github.com/aimrzky/Relaverse-CC)  |
+| Machine Learning  | [Github](https://github.com/NgakanWidyasprana/RelaVerse-ML/tree/main)  |
 
 # License
 [(Back to top)](#table-of-contents)
 
-You can also mention what license the project uses. I usually add it like this:
-
-[MIT license](./LICENSE)
+Bangkit Team C23-PS235
