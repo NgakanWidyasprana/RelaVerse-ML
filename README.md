@@ -1,6 +1,6 @@
 <!-- Add banner here -->
 <p align="center">
-  <img src="./assets/img/Relaverse.png" alt="Relaverse Logo" width="1280" height="720"/>
+  <img src="https://storage.googleapis.com/relaverse/Relaverse.png" alt="Relaverse Logo"/>
 </p>
 
 # **Title Classification - RelaVerse (Machine Learning)**
